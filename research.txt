@@ -1,0 +1,17 @@
+https://community.esri.com/thread/245882-python-time-modification-help
+
+https://gist.github.com/ikoblik/7089165
+
+https://www.tutorialspoint.com/python/os_utime.htm
+
+https://stackoverflow.com/questions/4996405/how-do-i-change-the-file-creation-date-of-a-windows-file
+
+https://www.tutorialspoint.com/How-to-set-creation-and-modification-date-time-of-a-file-using-Python#:~:text=time%20using%20JavaScript%3F-,How%20to%20set%20creation%20and%20modification%20date,of%20a%20file%20using%20Python%3F&text=To%20get%20the%20creation%20time,getctime(file_path)%20on%20windows.
+
+https://intellipaat.com/community/3770/how-to-get-file-creation-modification-date-times-in-python
+
+https://www.epochconverter.com/
+
+https://stackoverflow.com/questions/11348953/how-can-i-set-the-last-modified-time-of-a-file-from-python
+
+

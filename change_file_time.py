@@ -20,6 +20,7 @@ class ChangeFileTime:
 		use setctime(self.fn, self.curr_timestamp) to update created time
 		use os.utime(filename, (last_access, modified)) update last access, modified
 	'''
+    
     def __init__(self, file_name, curr_timestamp):
         self.file_name = file_name
         self.curr_timestamp = curr_timestamp
@@ -68,7 +69,6 @@ def main(argv):
     elif len(argv) == 3: ### file name and delta
         change_file_time_obj.set_file_time_with_delta_access(timestamp)
     elif len(argv) == 4: ### file name, timestamp and delta
-        timestamp = int(argv[2])
         timestamp_with_delta = timestamp + int(argv[3])
         change_file_time_obj.set_file_time_user_provided(timestamp, timestamp, timestamp_with_delta)
     else:
